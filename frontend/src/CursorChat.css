@@ -5,8 +5,13 @@
   padding: 10px;
   border-radius: 30px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  pointer-events: none;
+  pointer-events: none; /* 사용자 인터랙션 방지 */
   margin: 20px;
+}
+
+.chat-bubble.other-user {
+  background-color: rgba(255, 192, 203, 0.9); /* 다른 사용자의 채팅 스타일 */
+  font-size: 24px;
 }
 
 .chat-input {
@@ -31,4 +36,16 @@
   white-space: pre;
   font-size: 24px;
   padding: 10px;
+}
+
+/* 커서 근처의 유저 이름 스타일 */
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  pointer-events: none; /* 사용자 인터랙션 방지 */
 }
