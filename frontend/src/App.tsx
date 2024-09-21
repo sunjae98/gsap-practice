@@ -32,7 +32,7 @@ const App: React.FC = () => {
             const rotationAmount = this.x / 10 // 드래그한 x 좌표에 따라 회전
             gsap.to(cube, {
               rotationY: rotationAmount, // Y축 회전
-              rotationX: rotationAmount, // X축 회전 (조금 덜 회전)
+              rotationX: rotationAmount / 2, // X축 회전 (조금 덜 회전)
               duration: 0.1,
             })
           },
@@ -71,8 +71,8 @@ const App: React.FC = () => {
                 gsap.to(cube, {
                   x: centerX - cubeBounds.left + Number(gsap.getProperty(cube, 'x')),
                   y: centerY - cubeBounds.top + Number(gsap.getProperty(cube, 'y')),
-                  rotationX: 5, // 드랍 시 회전 초기화
-                  rotationY: -5, // 드랍 시 회전 초기화
+                  rotationX: 0, // 드랍 시 회전 초기화
+                  rotationY: 0, // 드랍 시 회전 초기화
                   duration: 0.5,
                   ease: 'power3.out',
                 })
