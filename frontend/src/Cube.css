@@ -63,7 +63,7 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: #0066cc;
+  background-color: #478cd1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,72 @@ body {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  /* 더 촘촘한 줄무늬 */
+  background-image: linear-gradient(
+    to right,
+    #2a6eb7 2%,
+    transparent 2%,
+    #2a6eb7 4%,
+    #2a6eb7 6%,
+    transparent 6%,
+    #2a6eb7 8%,
+    #2a6eb7 10%,
+    transparent 10%,
+    #2a6eb7 12%,
+    #2a6eb7 14%,
+    transparent 14%,
+
+    #2a6eb7 20%,
+    #2a6eb7 22%,
+    transparent 22%,
+    #2a6eb7 24%,
+    #2a6eb7 26%,
+    transparent 26%,
+
+    #2a6eb7 32%,
+    #2a6eb7 34%,
+    transparent 34%,
+    #2a6eb7 36%,
+    #2a6eb7 38%,
+    transparent 38%,
+    #2a6eb7 40%,
+    #2a6eb7 42%,
+    transparent 42%,
+
+    #2a6eb7 48%,
+    #2a6eb7 50%,
+    transparent 50%,
+    #2a6eb7 52%,
+    #2a6eb7 54%,
+    transparent 54%,
+    #2a6eb7 56%,
+    #2a6eb7 58%,
+    transparent 58%,
+
+    #2a6eb7 64%,
+    #2a6eb7 66%,
+    transparent 66%,
+    #2a6eb7 68%,
+    #2a6eb7 70%,
+    transparent 70%,
+    #2a6eb7 72%,
+    #2a6eb7 74%,
+    transparent 74%,
+
+    #2a6eb7 80%,
+    #2a6eb7 82%,
+    transparent 82%,
+
+    #2a6eb7 88%,
+    #2a6eb7 90%,
+    transparent 90%,
+    #2a6eb7 92%,
+    #2a6eb7 94%,
+    transparent 94%,
+    #2a6eb7 96%,
+    #2a6eb7 98%,
+    transparent 98%
+  );
 }
 
 /* 큐브 각 면의 위치 설정 */
