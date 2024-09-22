@@ -30,12 +30,12 @@ body {
   display: flex;
   flex-direction: row;
   width: 1300px;
-  height: 70px;
+  height: 40px;
   justify-content: space-around;
   align-items: center;
   background-color: #222; /* 초기 큐브 영역 배경색 */
   border: 2px solid #fff;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .drop-area {
@@ -55,7 +55,7 @@ body {
   width: 100px;
   height: 100px;
   transform-style: preserve-3d;
-  transform: rotateX(-20deg) rotateY(-5deg);
+  transform: rotateX(30deg) rotateY(-18deg) rotateZ(10deg);
 }
 
 /* 각 면 정의 */
